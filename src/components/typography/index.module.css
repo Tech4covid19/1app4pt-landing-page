@@ -1,0 +1,131 @@
+@import "../../styles/all.module.css";
+
+.h1 {
+  @extend %font-family-mono;
+
+  font-size: $font-size-h1;
+  line-height: $line-height-h1;
+
+  @include breakpoint-sm {
+    font-size: $font-size-h1-mobile;
+    line-height: 34px;
+  }
+}
+
+.h2 {
+  @extend %font-family-mono;
+
+  font-size: $font-size-h2;
+  line-height: $line-height-h2;
+
+  @include breakpoint-sm {
+    font-size: $font-size-h2-mobile;
+  }
+}
+
+.h3 {
+  @extend %font-family-mono;
+
+  font-size: $font-size-h3;
+  line-height: $line-height-h3;
+
+  @include breakpoint-sm {
+    font-size: $font-size-h3-mobile;
+  }
+}
+
+.title {
+  @extend %font-family-mono;
+
+  font-size: $font-size-title;
+  line-height: $line-height-title;
+}
+
+.body {
+  @extend %font-family-serif;
+
+  font-size: $font-size-body;
+  line-height: $line-height-body;
+}
+
+.mediumBody {
+  @extend %font-family-serif;
+
+  font-size: $font-size-medium-body;
+  line-height: $line-height-medium-body;
+}
+
+.largeBody {
+  @extend %font-family-serif;
+
+  font-size: $font-size-large-body;
+  line-height: $line-height-large-body;
+
+  @include breakpoint-sm {
+    font-size: 19px;
+    line-height: 31px;
+  }
+
+  @include breakpoint-xs {
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+
+.smallBody {
+  @extend %font-family-serif;
+
+  font-size: $font-size-small-body;
+  line-height: $line-height-small-body;
+}
+
+.footer {
+  @extend %font-family-mono;
+
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.regular {
+  font-weight: $font-weight-regular;
+
+  strong {
+    font-weight: $font-weight-semi-bold;
+  }
+}
+
+.medium {
+  font-weight: $font-weight-medium;
+}
+
+.semiBold {
+  font-weight: $font-weight-semi-bold;
+}
+
+.bold {
+  font-weight: $font-weight-bold;
+}
+
+.white {
+  color: $white;
+}
+
+.black {
+  color: $black;
+}
+
+.gray {
+  color: $gray;
+}
+
+.text {
+  color: $text;
+}
+
+.blue {
+  color: $blue;
+}
+
+.red {
+  color: $red;
+}

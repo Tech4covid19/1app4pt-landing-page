@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Pedro Fortuna",
+    "company": "Covidografia",
+    "img_url": "/people/man.png"
+  },
+  {
+    "name": "André Valente",
+    "company": "F.Champalimaud",
+    "img_url": "/people/man.png"
+  },
+  {
+    "name": "Rui Costa",
+    "company": "Covidografia",
+    "img_url": "/people/man.png"
+  },
+  {
+    "name": "Francisco Sales",
+    "company": "CovidApp",
+    "img_url": "/people/man.png"
+  },
+  {
+    "name": "Nelson Novais",
+    "company": "CovidApp",
+    "img_url": "/people/man.png"
+  },
+  {
+    "name": "José Moreira",
+    "company": "CovidApp",
+    "img_url": "/people/man.png"
+  },
+  {
+    "name": "Paulo Cunha",
+    "company": "Covidografia",
+    "img_url": "/people/man.png"
+  },
+  {
+    "name": "Orlando Rocha",
+    "company": "Covidografia",
+    "img_url": "/people/man.png"
+  },
+  {
+    "name": "Luís Borges",
+    "company": "Covidografia",
+    "img_url": "/people/man.png"
+  },
+  {
+    "name": "Rui Saraiva",
+    "company": "Covidografia",
+    "img_url": "/people/man.png"
+  },
+  {
+    "name": "Ricardo Fernandes",
+    "company": "Covidografia",
+    "img_url": "/people/man.png"
+  },
+  {
+    "name": "Marta Moita",
+    "company": "Covidografia",
+    "img_url": "/people/woman.png"
+  }
+]

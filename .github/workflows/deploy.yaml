@@ -17,9 +17,8 @@ jobs:
           node-version: 12.x
       - name: Build
         run: |
-          npm install --package-lock
-          npm ci
-          npm run build
+          yarn install --frozen-lockfile
+          yarn build
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:

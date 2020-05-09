@@ -1,0 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.ReactModal__Content {
+  opacity: 0;
+  transition: all 0.2s ease;
+  transform: translate3d(-50%, calc(-50% - 24px), 0);
+}
+
+.ReactModal__Content--after-open {
+  opacity: 1;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.ReactModal__Content--before-close {
+  opacity: 0;
+  transform: translate3d(-50%, calc(-50% + 24px), 0);
+}
