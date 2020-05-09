@@ -1,0 +1,48 @@
+@import "../../styles/all.module.css";
+
+.root {
+  padding: 290px 24px 290px;
+  background: url("/images/1a4.svg"), url("/images/hero-bg.jpg"), $blue;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left bottom, center, center;
+  background-size: 1394px auto, cover, cover;
+
+  @media screen and (width >= 1394px) {
+    background-position: center bottom, center, center;
+  }
+
+  @include breakpoint-md {
+    padding: 210px 24px 190px;
+    background-size: 1000px auto, cover, cover;
+  }
+
+  @include breakpoint-sm {
+    padding: 130px 28px 90px;
+  }
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.title {
+  max-width: 650px;
+
+  @include breakpoint-sm {
+    max-width: 350px;
+  }
+}
+
+.body {
+  max-width: 844px;
+  margin-top: 26px;
+
+  @include breakpoint-sm {
+    max-width: 75%;
+  }
+
+  @include breakpoint-xs {
+    max-width: 400px;
+  }
+}

@@ -1,0 +1,21 @@
+@import "../../styles/all.module.css";
+
+.root {
+  display: inline-block;
+  padding: 16px 40px;
+  cursor: pointer;
+  border-radius: 8px;
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}
+
+.blue {
+  background: $blue;
+}
+
+.green {
+  background: $green;
+}

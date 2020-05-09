@@ -1,0 +1,54 @@
+@import "../../styles/all.module.css";
+
+.root {
+  padding: 74px 24px;
+
+  @include breakpoint-md {
+    padding: 48px 24px;
+  }
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.people {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.person {
+  width: 20%;
+  padding: 0 12px;
+  margin-top: 80px;
+
+  @include breakpoint-lg {
+    width: 25%;
+  }
+
+  @include breakpoint-md {
+    width: 33%;
+    text-align: center;
+  }
+
+  @include breakpoint-sm {
+    width: 50%;
+  }
+
+  @include breakpoint-xs {
+    width: 100%;
+  }
+
+  img {
+    width: 114px;
+    height: 114px;
+    object-fit: cover;
+    margin-bottom: 40px;
+    border-radius: 50%;
+  }
+}

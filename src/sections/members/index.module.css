@@ -1,0 +1,89 @@
+@import "../../styles/all.module.css";
+
+.root {
+  position: relative;
+  padding: 74px 24px;
+  text-align: center;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    pointer-events: none;
+    content: "";
+    background: linear-gradient(180deg, #767eb5 0%, #838cc7 100%);
+    opacity: 0.15;
+  }
+
+  @include breakpoint-md {
+    padding: 48px 24px;
+  }
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 19px 0 69px;
+
+  @include breakpoint-md {
+    max-width: 640px;
+    margin: 19px auto 69px;
+  }
+
+  @include breakpoint-sm {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    max-width: 100%;
+    margin: 19px 0 59px;
+  }
+}
+
+.member {
+  width: 100%;
+  max-width: 280px;
+  height: 80px;
+  margin-top: 50px;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  img {
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+  }
+}
+
+.info {
+  max-width: 650px;
+  margin: 0 auto;
+
+  p {
+    @include breakpoint-sm {
+      font-size: 16px;
+    }
+  }
+}
+
+.infoLink {
+  &:hover,
+  &:active,
+  &:visited {
+    color: $blue;
+  }
+}

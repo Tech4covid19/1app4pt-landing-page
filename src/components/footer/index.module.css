@@ -1,0 +1,89 @@
+@import "../../styles/all.module.css";
+
+.footer {
+  @extend %font-family-serif;
+
+  padding: 70px 24px;
+  text-align: center;
+  background: $black;
+
+  @include breakpoint-sm {
+    padding: 54px 20px;
+  }
+}
+
+.email {
+  margin-bottom: 50px;
+
+  @include breakpoint-sm {
+    margin-bottom: 32px;
+  }
+
+  a {
+    color: $white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    p {
+      display: inline;
+      font-size: 18px;
+      line-height: 18px;
+    }
+  }
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  max-width: 625px;
+  margin: 0 auto;
+
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      opacity: 0.7;
+    }
+  }
+
+  @include breakpoint-sm {
+    flex-direction: column;
+  }
+}
+
+.link {
+  display: inherit;
+}
+
+.heart {
+  height: 15px;
+  margin: 0 12px;
+}
+
+.tech4covid19 {
+  height: 22px;
+  margin: 0 12px;
+
+  @include breakpoint-sm {
+    margin: 0 10px;
+  }
+}
+
+.heartWrapper {
+  @include breakpoint-sm {
+    margin-bottom: 24px;
+  }
+}
+
+.tech4covid19Wrapper {
+  @include breakpoint-sm {
+    p {
+      font-size: 13px;
+    }
+  }
+}

@@ -1,0 +1,142 @@
+@import "../../styles/all.module.css";
+
+.root {
+  padding: 30px 24px;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0);
+  transition: all 0.18s ease;
+
+  @include breakpoint-sm {
+    padding: 20px 24px;
+  }
+
+  @include breakpoint-xs {
+    padding: 20px;
+  }
+}
+
+.sticky {
+  padding: 12px 24px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+
+  @include breakpoint-sm {
+    padding: 12px 20px;
+  }
+
+  @include breakpoint-xs {
+    padding: 8px 20px;
+  }
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  max-width: 1274px;
+  margin: 0 auto;
+}
+
+.left {
+  margin-right: 36px;
+
+  @include breakpoint-sm {
+    display: none;
+  }
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  > div {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.logo {
+  text-decoration: none;
+
+  span {
+    @extend %font-family-mono;
+
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31px;
+    color: $white;
+    transition: all 0.18s ease;
+  }
+
+  strong {
+    font-weight: 600;
+    color: $white;
+    transition: all 0.18s ease;
+  }
+}
+
+.sticky .logo {
+  span,
+  strong {
+    color: $text;
+  }
+}
+
+.link {
+  margin-left: 48px;
+  text-decoration: none;
+
+  @include breakpoint-sm {
+    &:first-child {
+      margin-left: 0;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 19px;
+    }
+  }
+
+  @include breakpoint-xs {
+    margin-left: 16px;
+  }
+
+  p {
+    color: $white;
+    transition: all 0.18s ease;
+  }
+}
+
+.sticky .link {
+  p {
+    color: $text;
+  }
+}
+
+.join {
+  padding: 16px 54px;
+
+  @include breakpoint-sm {
+    padding: 8px 24px;
+  }
+
+  @media screen and (width < 340px) {
+    padding: 8px 16px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* stylelint-disable-next-line */
+  p {
+    font-size: 14px;
+    line-height: 18px;
+
+    @include breakpoint-sm {
+      font-size: 13px;
+      line-height: 17px;
+    }
+  }
+}

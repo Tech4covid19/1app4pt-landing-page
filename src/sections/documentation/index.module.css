@@ -1,0 +1,139 @@
+@import "../../styles/all.module.css";
+
+.root {
+  position: relative;
+  display: flex;
+
+  @include breakpoint-sm {
+    display: block;
+  }
+
+  &::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    pointer-events: none;
+    content: "";
+    background: $blue;
+    opacity: 0.05;
+  }
+}
+
+.left {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 43%;
+  background: #bcc5d6;
+
+  @include breakpoint-sm {
+    width: 100%;
+  }
+}
+
+.imageWrapper {
+  width: 100%;
+  max-width: 446px;
+  max-height: 554px;
+
+  @include breakpoint-sm {
+    margin-top: 50px;
+  }
+
+  @include breakpoint-xs {
+    max-width: 261px;
+  }
+}
+
+.right {
+  width: 57%;
+  padding: 74px 110px 60px;
+
+  @include breakpoint-lg {
+    padding: 74px 74px 50px;
+  }
+
+  @include breakpoint-md {
+    padding: 54px 54px 40px;
+  }
+
+  @include breakpoint-sm {
+    width: 100%;
+  }
+
+  @include breakpoint-xs {
+    padding: 54px 24px 40px;
+  }
+}
+
+.title {
+  margin-bottom: 26px;
+}
+
+.subTitle {
+  max-width: 545px;
+  margin-bottom: 34px;
+}
+
+.body {
+  max-width: 430px;
+  margin-bottom: 48px;
+
+  @include breakpoint-sm {
+    max-width: 100%;
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+
+  @include breakpoint-md {
+    display: block;
+    text-align: center;
+  }
+}
+
+.download {
+  @extend %font-family-mono;
+
+  font-size: 14px;
+  font-weight: $font-weight-semi-bold;
+  line-height: 18px;
+  color: $white;
+
+  @include breakpoint-md {
+    margin-bottom: 16px;
+  }
+
+  @include breakpoint-xs {
+    width: 100%;
+  }
+}
+
+.divider {
+  width: 1px;
+  height: 31px;
+  margin: 0 24px;
+  background: $blue;
+  opacity: 0.2;
+
+  @include breakpoint-md {
+    display: none;
+  }
+}
+
+.footerUpdate {
+  p {
+    font-size: 12px;
+    line-height: 19px;
+  }
+  p:last-child {
+    @extend %font-family-mono;
+
+    font-weight: $font-weight-semi-bold;
+  }
+}
