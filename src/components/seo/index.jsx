@@ -34,7 +34,7 @@ function SEO({ title, description, keywords }) {
       <meta name="description" content={description || siteDescription} />
       <meta name="keywords" content={keywords || siteKeywords} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      {/* <link rel="icon" type="image/png" href="/favicon.png" /> */}
+      <link rel="icon" type="image/png" href="/favicon.png" />
       <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       <meta name="language" content="pt-pt" />
       <meta name="author" content={author} />
@@ -43,10 +43,10 @@ function SEO({ title, description, keywords }) {
         property="og:description"
         content={description || siteDescription}
       />
-      {/* <meta
+      <meta
         property="og:image"
         content={`${siteUrl}/images/1app4pt-share.png?v1`}
-      /> */}
+      />
     </Helmet>
   )
 }

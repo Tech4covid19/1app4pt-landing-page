@@ -13,20 +13,5 @@
     "name": "CovidApp",
     "img_url": "/members/covidapp-logo.svg",
     "url": "https://covidapp.pt"
-  },
-  {
-    "name": "Atlassian1",
-    "img_url": "/members/atlassian1-logo.svg",
-    "url": "https://atlassian.org"
-  },
-  {
-    "name": "Chanel",
-    "img_url": "/members/chanel-logo.svg",
-    "url": "https://chanel.com"
-  },
-  {
-    "name": "Atlassian2",
-    "img_url": "/members/atlassian2-logo.svg",
-    "url": "https://atlassian.org"
   }
 ]
