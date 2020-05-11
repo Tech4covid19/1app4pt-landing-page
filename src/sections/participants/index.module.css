@@ -47,8 +47,20 @@
   img {
     width: 114px;
     height: 114px;
-    object-fit: cover;
     margin-bottom: 40px;
     border-radius: 50%;
+    transition: all 0.2s;
+    object-fit: cover;
+  }
+
+  a {
+    text-decoration: none;
+    &:hover {
+      img,
+      p {
+        color: $blue;
+        opacity: 0.8;
+      }
+    }
   }
 }
