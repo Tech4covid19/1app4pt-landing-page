@@ -2,52 +2,62 @@
   {
     "name": "Pedro Fortuna",
     "company": "Covidografia",
-    "img_url": "/people/man.png"
+    "img_url": "/people/man.png",
+    "linkedin": "https://www.linkedin.com/in/pedrofortuna"
   },
   {
     "name": "André Valente",
     "company": "F.Champalimaud",
-    "img_url": "/people/man.png"
+    "img_url": "/people/man.png",
+    "linkedin": "https://www.linkedin.com/in/andr%C3%A9-valente-a5568941"
   },
   {
     "name": "Rui Costa",
     "company": "Covidografia",
-    "img_url": "/people/man.png"
+    "img_url": "/people/man.png",
+    "linkedin": "https://www.linkedin.com/in/ruifcosta"
   },
   {
     "name": "Francisco Sales",
     "company": "CovidApp",
-    "img_url": "/people/man.png"
+    "img_url": "/people/man.png",
+    "linkedin": "https://www.linkedin.com/in/franciscofsales"
   },
   {
     "name": "Nelson Novais",
     "company": "CovidApp",
-    "img_url": "/people/man.png"
+    "img_url": "/people/man.png",
+    "linkedin": "https://www.linkedin.com/in/nelson-novais"
   },
   {
     "name": "José Moreira",
     "company": "CovidApp",
-    "img_url": "/people/man.png"
+    "img_url": "/people/man.png",
+    "linkedin": "https://www.linkedin.com/in/cusspvz"
   },
   {
     "name": "Paulo Cunha",
     "company": "Covidografia",
-    "img_url": "/people/man.png"
+    "img_url": "/people/man.png",
+    "linkedin": "https://www.linkedin.com/in/pcunha"
   },
   {
     "name": "Orlando Rocha",
     "company": "Covidografia",
-    "img_url": "/people/man.png"
+    "img_url": "/people/man.png",
+    "linkedin": "https://www.linkedin.com/in/orlando-rocha-17944b70"
   },
   {
     "name": "Luís Borges",
     "company": "Covidografia",
-    "img_url": "/people/man.png"
+    "img_url": "/people/man.png",
+    "linkedin": ""
   },
   {
     "name": "Rui Saraiva",
     "company": "Covidografia",
-    "img_url": "/people/man.png"
+    "img_url": "/people/man.png",
+    "linkedin": "https://www.linkedin.com/in/ruisaraiva19"
   },
   {
     "name": "Ricardo Fernandes",
@@ -58,5 +68,11 @@
     "name": "Marta Moita",
     "company": "Covidografia",
     "img_url": "/people/woman.png"
+  },
+  {
+    "name": "Zachary Mainen",
+    "company": "F.Champalimaud",
+    "img_url": "/people/man.png",
+    "linkedin": "https://www.linkedin.com/in/zachary-mainen-0aa7a46"
   }
 ]
