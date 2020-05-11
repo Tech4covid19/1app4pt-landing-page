@@ -45,7 +45,7 @@ function SEO({ title, description, keywords }) {
       />
       <meta
         property="og:image"
-        content={`${siteUrl}/images/1app4pt-share.png?v1`}
+        content="/images/1app4pt-share.png?v1"
       />
     </Helmet>
   )
