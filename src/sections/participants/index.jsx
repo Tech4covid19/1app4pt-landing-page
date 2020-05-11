@@ -16,11 +16,17 @@ const Participants = () => {
         <div className={styles.people}>
           {people.map((person, idx) => (
             <div className={styles.person} key={idx}>
-              <img src={person.img_url} alt={person.name} />
-              <Typography variant="title" weight="semiBold">
-                {person.name}
-              </Typography>
-              <Typography variant="smallBody">{person.company}</Typography>
+              <a
+                href={person.linkedin}
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <img src={person.img_url} alt={person.name} />
+                <Typography variant="title" weight="semiBold">
+                  {person.name}
+                </Typography>
+                <Typography variant="smallBody">{person.company}</Typography>
+              </a>
             </div>
           ))}
         </div>
