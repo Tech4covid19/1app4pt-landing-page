@@ -8,7 +8,8 @@ import documents from "@/data/documentos.json"
 import styles from "./index.module.css"
 
 const downloadFile = async fileUrl => {
-  const filename = fileUrl.split("/").pop()
+  const file = fileUrl.split("/").pop()
+  const filename = file.split("?")[0]
   const blob = await fetch(fileUrl).then(r => r.blob())
   if ("msSaveOrOpenBlob" in window.navigator) {
     // Blob for IE11
