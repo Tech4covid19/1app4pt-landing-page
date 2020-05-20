@@ -22,9 +22,12 @@ const Members = () => {
         </div>
         <div className={styles.info}>
           <Typography variant="body" color="text">
-            Tens uma App Covid-19 e interesse em participar neste grupo de
-            trabalho?{" "}
-            <a className={styles.infoLink} href="/#aderir">
+            Estão interessados em contribuir? A vossa organização actua na área
+            da saúde, epidemiologia, gestão de crise e/ou dados, economia ou
+            desenvolvimento de software? Têm uma App Covid-19 e interesse em
+            participar neste grupo de trabalho?{" "}
+            {/* <a className={styles.infoLink} href="/#aderir"> */}
+            <a className={styles.infoLink} href="mailto:info@1app4.pt">
               Contacta-nos
             </a>{" "}
             para discutir futuras colaborações.

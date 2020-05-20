@@ -51,13 +51,13 @@ export default function Header() {
                 <Typography variant="title">Membros</Typography>
               </Link>
             </div>
-            <Link to="/#aderir">
+            {/* <Link to="/#aderir">
               <Button color="green" className={styles.join}>
                 <Typography variant="title" weight="semiBold" color="white">
-                  Aderir
+                  Participe
                 </Typography>
               </Button>
-            </Link>
+  </Link> */}
           </div>
         </div>
       </header>

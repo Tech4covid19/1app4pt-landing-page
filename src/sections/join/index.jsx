@@ -51,7 +51,7 @@ const Join = () => {
     try {
       setIsSubmitting(true)
       await axios.post(site.siteMetadata.enrollmentUrl, data)
-      setModalTitle("Obrigado pelo seu pedido de adesão.")
+      setModalTitle("Obrigado pelo seu pedido de participação.")
       setModalBody("Entraremos em contacto brevemente")
       reset()
     } catch (error) {
@@ -69,10 +69,10 @@ const Join = () => {
       <div className={styles.container}>
         <div className={styles.title}>
           <Typography variant="h1" color="text" weight="semiBold">
-            Aderir
+            Participe
           </Typography>
           <Typography variant="body" color="text">
-            Pode aderir como instuição ou a título individual
+            Pode participar como instituição ou a título individual
           </Typography>
         </div>
         <form
@@ -150,7 +150,7 @@ const Join = () => {
               className={styles.submit}
               disabled={isSubmitting}
             >
-              Aderir
+              Participe
             </Button>
           </div>
         </form>

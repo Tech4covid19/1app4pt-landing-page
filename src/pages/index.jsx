@@ -22,7 +22,7 @@ const IndexPage = () => {
         <Documentation />
         <Members />
         <Participants />
-        <Join />
+        {/* <Join /> */}
         <Footer />
       </Layout>
     </div>
